@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Poppins:wght@200&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Poppins:wght@600&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.header{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 60px;
+    /*box-shadow: 0 10px 40px 50px rgb(204, 64, 64) ;*/
+}
+
+#logo{
+    padding-top: 10px;
+    margin-left: 42.5%;
+    width: 33px;
+    height:33px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;                     
+    background-color: #1C1C1C;
+    color: white;
+    padding-left: 350px;
+    z-index: 0;                                   /*to change position of bar*/
+
+}
+.navbar a{
+    font-family: 'Poppins';
+}
+.navbar a:hover{
+    background-color: rgb(156, 159, 159);
+    
+}
+
+.dropdown {
+    float: left;
+    
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1C1C1C;
+    padding: 14px 16px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+  
+.dropdown:hover .dropbtn {
+    font-size: large;
+    transition: 0.4s;
+    cursor: pointer;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(241, 237, 237, 0.2);
+    z-index: 1;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+  
+.dropdown-content a:hover {
+    background-color: #1C1C1C;
+    color: aliceblue;
+    transition: 0.4s;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.page{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    padding-left: 47px;
+}
+
+figure{
+    width: 230px;
+    z-index: -1;
+}
+
+.product{
+    position: relative;
+    padding-right: 110px;
+}
+
+
+
+.figcap{
+   
+    font-family: 'Poppins';
+    padding-top: 380px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    width: 320px;
+}
+
+#jordan{
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.ajshoe{
+    position: relative;
+
+}
+.ajshoe img{
+    position: absolute;
+    height: 370px;
+    width: 320px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.ajshoe img.img-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
